@@ -16,13 +16,15 @@ npm install && npm start
 
 ## Operations:
 
+### Endpoint URL: [https://metascraper-49.herokuapp.com/scraper](https://metascraper-49.herokuapp.com/scraper)
+
 #### Simple POST request to the server
 
 ```bash
 curl -d '{
     "url": "https://www.amazon.in/OnePlus-Nord-Sierra-128GB-Storage/dp/B097RDVDL2"
 }' 
--H "Content-Type: application/json" -X POST http://localhost:3000/scraper
+-H "Content-Type: application/json" -X POST https://metascraper-49.herokuapp.com/scraper
 ```
 
 #### In response we get - 
